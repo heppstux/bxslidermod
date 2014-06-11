@@ -4,10 +4,7 @@
   "homepage": "http://bxslider.com",
   "license": "MIT",
   "main": [
-    "jquery.bxslider.js",
-		"jquery.bxslider.min.js",
-    "jquery.bxslider.css",
-    "images/**"
+    "assets/**"
   ],
   "keywords": [
     "bxslider",
