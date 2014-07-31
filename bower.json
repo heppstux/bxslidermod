@@ -6,7 +6,8 @@
   "main": [
     "css/**",
     "img/**",
-    "js/**"
+    "js/**",
+    "plugins/**"
   ],
   "keywords": [
     "bxslider",
