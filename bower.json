@@ -1,6 +1,6 @@
 {
   "name": "bxslider-zeiss",
-  "version": "0.0.0",
+  "version": "4.2.5-zeiss",
   "homepage": "http://bxslider.com",
   "license": "MIT",
   "main": [
@@ -9,17 +9,23 @@
     "js/**",
     "plugins/**"
   ],
+  "ignore": [
+    "docs_src/*",
+    "docs/*",
+    "**/.*",
+    "*.md"
+  ],
   "keywords": [
     "bxslider",
     "javascript",
     "jquery",
     "library"
   ],
-  "ignore": [
-    "**/.*",
-    "*.md"
-  ],
   "dependencies": {
-    "jquery": ">=1.6"
+    "jquery": ">= 1.8.3"
+  },
+  "devDependencies": {
+    "bootstrap": ">= 3.3.2",
+    "highlightjs": "~8.4.0"
   }
 }
